@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        .price-card {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #2d2d2d;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #444;
+        }
+        .price-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #363636;
+        }
+        .price-section h2 {
+            color: #fff;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #555;
+        }
+        .price-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dashed #555;
+        }
+        .price {
+            font-weight: bold;
+            color: #ff6b6b;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #aaa;
+            margin-top: 5px;
+        }
+        .notice {
+            margin-top: 20px;
+            padding: 15px;
+            background: #403d2d;
+            border-radius: 5px;
+            color: #ffd866;
+        }
+    </style>
+</head>
+<body>
+    <div class="price-card">
+        <h1>入場價目表</h1>
+        
+        <div class="price-section">
+            <h2>平日價格（週一至週四）</h2>
+            <div class="price-item">
+                <span>全天候（24小時）</span>
+                <span class="price">NT$ 500</span>
+            </div>
+            <div class="price-item">
+                <span>早場（12:00-18:00）</span>
+                <span class="price">NT$ 350</span>
+                <div class="note">※需於00:00前離場</div>
+            </div>
+            <div class="price-item">
+                <span>晚場（18:30~19:30入場）</span>
+                <span class="price">NT$ 500</span>
+                <div class="note">※可停留至次日06:00</div>
+            </div>
+            <div class="price-item">
+                <span>夜場（00:30~02:30入場）</span>
+                <span class="price">NT$ 250</span>
+                <div class="note">※可停留至次日06:00</div>
+            </div>
+            <div class="price-item">
+                <span>特殊優惠（18:30~19:30入場）</span>
+                <span class="price">NT$ 250</span>
+                <div class="note">※限學生、軍人、健身會員（需出示證件）</div>
+                <div class="note">※可停留至次日06:00</div>
+            </div>
+        </div>
+
+        <div class="price-section">
+            <h2>假日價格（週五至週日）</h2>
+            <div class="price-item">
+                <span>全天候（24小時）</span>
+                <span class="price">NT$ 700</span>
+            </div>
+            <div class="price-item">
+                <span>早場（12:00-18:00）</span>
+                <span class="price">NT$ 400</span>
+                <div class="note">※需於00:00前離場</div>
+            </div>
+            <div class="price-item">
+                <span>晚場（18:30~19:30入場）</span>
+                <span class="price">NT$ 500</span>
+                <div class="note">※可停留至次日06:00</div>
+            </div>
+            <div class="price-item">
+                <span>夜場（00:30~02:30入場）</span>
+                <span class="price">NT$ 250</span>
+                <div class="note">※可停留至次日06:00</div>
+            </div>
+            <div class="price-item">
+                <span>特殊優惠（18:30~19:30入場）</span>
+                <span class="price">NT$ 350</span>
+                <div class="note">※限學生、軍人、健身會員（需出示證件）</div>
+                <div class="note">※可停留至次日06:00</div>
+            </div>
+        </div>
+
+        <div class="notice">
+            <strong>注意事項：</strong>
+            <ul>
+                <li>所有優惠價格需出示有效證件</li>
+                <li>請準時於指定時段入場</li>
+                <li>請遵守各時段之離場時間規定</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
